@@ -5,7 +5,7 @@ let s:asciiart = [
 			\"  +#+  +:+       +#+     ",
 			\"+#+#+#+#+#+   +#+        ",
 			\"     #+#    #+#          ",
-			\"    ###   LAUSANNE.CH    "
+			\"    ###   LAUSANNE.ch    "
 			\]
 
 let s:start		= '/*'
