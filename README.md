@@ -1,46 +1,15 @@
 # **42 Header**
 
-42 (Paris)
+42 (Lausanne)
 
 ### **Description**
 
-42 standard header for vim editor.
+42 standard header for vim editor, tuned for Lausanne :)
 
-![42 header](img/42header.jpg)
+### **INFO**
 
-### **UNIX Setup**
-
-Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
-manager. Then set the user and mail variables as explained below.
-
-#### Option 1: export USER and MAIL in your shell configuration file
-
-Add in `~/.zshrc` your:
-
-+ `USER`
-+ `MAIL`
-
-#### Option 2: set user and mail values directly in your vimrc
-
-```vim
-let g:user42 = 'yourLogin'
-let g:mail42 = 'yourLogin@student.42.fr'
-```
-
-### **Usage**
-
-In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
-
-Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
-
-For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
-
-### **Note**
-
-Inside the **42 clusters** you can easily run:
-
-`$ ./set_header.sh`
-
+Go read the [original](https://github.com/42Paris/42header) to see how it works!
+I only changed one line so that it displays "LAUSANNE.CH". Everything else is exactly the same :)
 ### **Credits**
 
 [@zazard](https://github.com/zazard) - creator  
